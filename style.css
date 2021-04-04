@@ -34,12 +34,12 @@ path{
 
 .iglogo{
     position:absolute;
-    top:28em;
+    top:27.8rem;
 }
 
 .fblogo{
     position: absolute;
-    top: 25em;
+    top:24.5rem;
 }
 
 .follow{
@@ -97,4 +97,13 @@ h1{
 .index-link{
     position:relative;
     top: 50px;
+}
+
+a{
+    color: orangered;
+}
+
+.index-nav{
+    position:relative;
+    bottom: 1.5rem;
 }
