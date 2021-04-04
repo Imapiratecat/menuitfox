@@ -6,23 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style-dist.css">
-</head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+        </style>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet">
+        </head>
 <body>
     <div class="box-main">
     <!--Header principal-->
     <header><h1>Tu Cervecería</h1></header>
 <!--Section para  el CSS-->
-        <header><h3>Nuestras cervezas y cocteles...</h3></header><!--Header del section menu-->
+        <header><h3 class="list-cerve">Nuestras cervezas y cocteles...</h3></header><!--Header del section menu-->
     <!--unorderer list a modo de menu, las ID funcionan para mas adelante hacer un sistema de carrito, aun hay que asignarle un valor que sería el precio final para luego montar todo en un mensaje de whatsapp-->
         <ul>
-            <li id=cerve1>Cerveza1..........$$$</li>
-            <li id=cerve2>Cerveza2..........$$$</li>
-            <li id=cerve3>Cerveza3..........$$$</li>
-            <li id=cerve4>Cerveza4..........$$$</li>
-            <li id=cocte1>Coctel1............$$$</li>
-            <li id=cocte2>Coctel2............$$$</li>
-            <li id=cocte3>Coctel3............$$$</li>
-            <li id=cocte4>Coctel4............$$$</li>
+            <li class="list-cerve__item" id=cerve2>Cerveza2..........$$$</li>
+            <li class="list-cerve__item" id=cerve1>Cerveza1..........$$$</li>
+            <li class="list-cerve__item" id=cerve3>Cerveza3..........$$$</li>
+            <li class="list-cerve__item" id=cerve4>Cerveza4..........$$$</li>
+            
+        </ul>
+        <ul class="list-cocte">
+            <li class="list-cocte__item" id=cocte1>Coctel1............$$$</li>
+            <li class="list-cocte__item" id=cocte2>Coctel2............$$$</li>
+            <li class="list-cocte__item" id=cocte3>Coctel3............$$$</li>
+            <li class="list-cocte__item" id=cocte4>Coctel4............$$$</li>
         </ul>
     
 
