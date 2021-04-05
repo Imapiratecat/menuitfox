@@ -11,7 +11,7 @@
     background-position-x: 90px;
     background-position-y: 0px;
     position: absolute;
-    left: 25em;
+    left: 30%;
     border-radius: 3%;
 }
 
@@ -21,6 +21,7 @@ body{
     background-size: 100%;
     font-family: 'Kiwi Maru', serif;
     font-size: 15px;
+    max-block-size: 100%;
 }
 
 footer{
