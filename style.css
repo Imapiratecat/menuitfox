@@ -26,6 +26,7 @@ body{
 footer{
     position:absolute;
     bottom: 0;
+    font-size: 11.5px;
 }
 
 path{
@@ -65,11 +66,13 @@ address{
 }
 
 h1{
-    font-family: 'Chango', cursive;
-    font-size: 3em;
+    font-family: 'Playball', cursive;
+    font-size: 4rem;
     text-align: center;
     position:relative;
     bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 0px; 
 }
 
 .list-comid{
@@ -109,19 +112,14 @@ a{
 }
 
 .index-link{
-    font-family: 'Chango' , cursive;
+    font-family: 'Playball' , cursive;
     font-size: 1.5rem;
     position:relative;
-    top: 9px;
-    border: 2px;
-    border-style:solid;
-    border-color: #F7B532;
-    border-radius: 25%;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    display: inline-block;
+    top: 10px;
+    background-color: #F7B532;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 10px;
 }
 
 h3{
