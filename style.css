@@ -1,4 +1,4 @@
-.box-main {
+/*.box-main {
     height: 560px;
     width: 500px;
     background: url(sources/pinta.jpg);
@@ -13,8 +13,8 @@
     position: absolute;
     left: 30%;
     border-radius: 3%;
-}
-
+}*/
+/*
 body{
     background-color:black;
     background-image: url(sources/bar-fondo.jpg);
@@ -125,4 +125,33 @@ a{
 
 h3{
     font-size: 28px;
+}*/
+body{
+    background-color: black;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box-main{
+border-style: solid;
+border-color: orange;
+background-color: lightgray;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+min-width: 340px;
+max-width:430px ;
+height: 610px;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.fblogo{
+    order: 1;
 }
